@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn - Tables</title>
+  </head>
+  <body style="text-align: center">
+    <h1>School TimeTable</h1>
+    <table border="1" cellspacing="0">
+      <tr>
+        <th></th>
+        <th colspan="6">Time Table</th>
+      </tr>
+      <tr>
+        <th rowspan="6">Hours</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td rowspan="2">Hindi</td>
+        <td>Sanskrit</td>
+        <td>Computer</td>
+        <td>Games</td>
+        <td>SST</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>Sanskrit</td>
+        <td>Computer</td>
+        <td>Games</td>
+        <td>SST</td>
+      </tr>
+      <tr>
+        <th colspan="6">Lunch</th>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>Hindi</td>
+        <td>Sanskrit</td>
+        <td>Computer</td>
+        <td>Games</td>
+        <td rowspan="2">LAB</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>Hindi</td>
+        <td>Sanskrit</td>
+        <td>Computer</td>
+        <td>Games</td>
+      </tr>
+    </table>
+    <hr />
+    <h1>iFrame Video and Audio Tags</h1>
+    <table border="1" cellspacing="0">
+      <tr>
+        <th></th>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+      <tr>
+        <th rowspan="2">iFrame Tag</th>
+        <td>Complete Kubernetes Course | Deploy MERN app</td>
+        <td>Complete Typescript in under 5 hours</td>
+        <td>Full Stack JavaScript Bootcamp 2.0</td>
+      </tr>
+      <tr>
+        <td>
+          <iframe
+            width="400"
+            height="200"
+            src="https://www.youtube.com/embed/7XDeI5fyj3w"
+            frameborder="0"
+          ></iframe>
+        </td>
+        <td>
+          <iframe
+            width="400"
+            height="200"
+            src="https://www.youtube.com/embed/ZchBYjHFCC4"
+            frameborder="0"
+          ></iframe>
+        </td>
+        <td>
+          <iframe
+            width="400"
+            height="200"
+            src="https://www.youtube.com/embed/WStKrvp8SOQ"
+            frameborder="0"
+          ></iframe>
+        </td>
+      </tr>
+      <tr>
+        <th>Video Tag</th>
+        <td>
+          <video controls width="400" height="200">
+            <source
+              src="./assets/y2mate.com - if found x Luma  twenty five NCS Release_v144P.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </td>
+        <td colspan="2">
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"
+            >More on Video Tag</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <th>Audio Tag</th>
+        <td colspan="2">
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
+            >More on Audio Tag</a
+          >
+        </td>
+        <td>
+          <audio
+            controls
+            src="./assets/y2mate.com - if found x Luma  twenty five NCS Release.mp3"
+          ></audio>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <br />
+    <a href="./">Back</a>
+  </body>
+</html>
