@@ -8,8 +8,8 @@
   </head>
   <body>
     <h1>Sign up</h1>
-    <form action="">
-      Name : <input type="text" /> <br />
+    <form action="/post">
+      Name : <input type="text" name="name" /> <br />
       Email : <input type="email" /> <br />
       Password : <input type="password" /> <br />
       Contact : <input type="tel" /> <br />
@@ -25,6 +25,8 @@
       <br />
       git url :
       <input type="url" placeholder="enter git url" /> <br />
+      hidden : <input type="hidden" name="hidden" value="127.0.0.1" />
+      <!-- This hidden input means, user does not have to input the value but it will go when we click on submit button -->
       <br />
       <button type="submit">Submit</button>
       <button type="reset">Reset</button>
