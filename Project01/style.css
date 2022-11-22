@@ -13,7 +13,8 @@
   padding-right: 5%;
   box-sizing: border-box;
   position: relative;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  overflow: hidden;
 }
 
 .navbar-container {
@@ -38,6 +39,7 @@ nav ul li {
 }
 
 nav ul li:hover {
+  transition: all 0.3s ease-in-out;
   color: black;
   cursor: pointer;
 }
@@ -62,7 +64,8 @@ nav .button-group .nav-button {
 }
 
 nav .button-group .nav-button:hover {
-  background-color: #4742b3;
+  transition: all 0.3s ease-in-out;
+  background-color: #3c2f60;
   cursor: pointer;
 }
 
@@ -94,4 +97,9 @@ nav .button-group .nav-button:hover {
   margin: 50px 0 0 100px;
   font-size: 20px;
   border-radius: 15px;
+}
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #3c2f60;
+  cursor: pointer;
 }
