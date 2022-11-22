@@ -34,6 +34,7 @@ nav ul li {
   color: #fff;
   font-weight: 500;
 }
+
 nav ul li:hover {
   cursor: pointer;
 }
@@ -43,9 +44,18 @@ nav ul li:hover {
   height: 30px;
 }
 
+.list-item:first-child::after {
+  content: ">";
+  margin: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
 .list {
   margin-left: -130px;
 }
+
 .button-small {
   border: none;
   padding: 5px 20px;
@@ -78,6 +88,7 @@ nav div img {
   font-size: 60px;
   line-height: 70px;
 }
+
 .hero-description {
   font-size: 20px;
 }
