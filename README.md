@@ -1,3 +1,22 @@
 # Fullstack-Javascript-Bootcamp-2.0
 
-The Projects have been updated and check out the deployed URLs
+## Articles
+1. [Introduction to Web and HTML](https://shivananda.hashnode.dev/introduction-to-web-and-html)
+2. [Power of Image tag](https://shivananda.hashnode.dev/power-of-image-tag)
+3. [All About CSS Selectors](https://shivananda.hashnode.dev/all-about-css-selectors)
+4. [Flexbox Guide](https://shivananda.hashnode.dev/flexbox-guide)
+5. ...publishing soon
+
+<hr>
+
+## TODO
+- [x] On Web Server
+- [x] HTML Element
+- [x] Input Elements
+- [x] Audio and Video Tag
+- [x] Flex Box (CSS)
+- [ ] Positioning (CSS)
+- [ ] CSS Box Model (Padding, Margin, Border)
+- [ ] Media Query 
+- [ ] CSS Grid
+
