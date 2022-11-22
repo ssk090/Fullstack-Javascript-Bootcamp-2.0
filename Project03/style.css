@@ -1,0 +1,133 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron";
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  flex: 1;
+  padding: 10px 0 20px 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 30px;
+  color: #000;
+  font-weight: 500;
+}
+nav ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-button {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-left: 15px;
+  background-color: #fff;
+  color: #414141;
+  font-weight: bold;
+}
+
+.hero-container > span {
+  position: absolute;
+  z-index: -1;
+  left: 80px;
+  top: 100px;
+}
+
+.hero-container .star:nth-child(2) {
+  left: 500px;
+  top: 400px;
+}
+.hero-container .star:nth-child(3) {
+  top: 10px;
+  left: 1000px;
+}
+.hero-container .globe {
+  top: -30px;
+  left: 700px;
+}
+
+.hero-container {
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-heading {
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.hero-description {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 100px;
+  color: #5c5c5c;
+}
+
+.button-email {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-left: 15px;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.button-join {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-left: 15px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact-heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.icons span img {
+  padding: 10px;
+}
