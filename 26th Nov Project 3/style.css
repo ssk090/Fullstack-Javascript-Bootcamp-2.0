@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #2b2923;
+}
+
+.logo {
+  width: 20vh;
+}
+
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20%;
+  color: #aaa8a1;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+nav ul button {
+  color: rgb(160, 144, 54);
+  border: solid 1px rgb(160, 144, 54);
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: #2b2923;
+}
+
+.hero_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20%;
+  color: #f1f0ee;
+}
+
+.hero_text h1 {
+  font-size: 50px;
+  width: 50%;
+}
+
+.hero_text p {
+  width: 50%;
+  padding: 0 7%;
+}
+
+.hammer_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 20%;
+  width: 60%;
+}
