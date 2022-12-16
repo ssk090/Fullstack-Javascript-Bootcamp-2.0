@@ -8,7 +8,7 @@
 5. [CSS Positions](https://shivananda.hashnode.dev/css-positions)
 6. [CSS Box Model](https://shivananda.hashnode.dev/the-css-box-model)
 7. [Media Queries](https://shivananda.hashnode.dev/media-queries)
-8. ...publishing soon
+8. ... publishing soon
 
 <hr>
 
