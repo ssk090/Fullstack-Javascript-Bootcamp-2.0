@@ -15,7 +15,7 @@
 - [x] Input Elements
 - [x] Audio and Video Tag
 - [x] Flex Box (CSS)
-- [ ] Positioning (CSS)
+- [x] Positioning (CSS)
 - [ ] CSS Box Model (Padding, Margin, Border)
 - [ ] Media Query 
 - [ ] CSS Grid
