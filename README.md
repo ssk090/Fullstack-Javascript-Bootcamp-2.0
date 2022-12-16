@@ -7,7 +7,8 @@
 4. [Flexbox Guide](https://shivananda.hashnode.dev/flexbox-guide)
 5. [CSS Positions](https://shivananda.hashnode.dev/css-positions)
 6. [CSS Box Model](https://shivananda.hashnode.dev/the-css-box-model)
-7. ...publishing soon
+7. [Media Queries](https://shivananda.hashnode.dev/media-queries)
+8. ...publishing soon
 
 <hr>
 
@@ -19,6 +20,8 @@
 - [x] Flex Box (CSS)
 - [x] Positioning (CSS)
 - [x] CSS Box Model (Padding, Margin, Border)
-- [ ] Media Query 
+- [x] Media Query 
 - [ ] CSS Grid
+- [ ] Tailwind CSS
+- [ ] Javascript
 
