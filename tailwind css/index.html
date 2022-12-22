@@ -9,55 +9,56 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!-- <div class="text-white font-bold bg-[#0066B8] text-center">
-      For Educational Purpose ONLY
-    </div> -->
-
-    <nav class="bg-[#2C2C32] px-[100px] text-xl">
-      <ul class="flex">
-        <div class="flex items-center justify-around w-[240px]">
-          <img
-            class="w-[25px] cursor-pointer"
-            src="./assets/logo.png"
-            alt="logo"
-          />
-          <li class="pr-6 text-white">
-            <a href="#">Visual Studio Code</a>
-          </li>
+    <!-- NAVBAR HERE -->
+    <nav
+      class="bg-[#2C2C32] fixed top-0 flex justify-center w-full h-[50px] overflow-hidden"
+    >
+      <div class="flex justify-center items-center">
+        <img
+          class="w-[25px] cursor-pointer"
+          src="./assets/logo.png"
+          alt="logo"
+        />
+        <div class="pl-3 text-white text-xl">
+          <a href="#">Visual Studio Code</a>
         </div>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">Docs</a>
-        </li>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">Updates</a>
-        </li>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">Blog</a>
-        </li>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">API</a>
-        </li>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">Extensions</a>
-        </li>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">FAQ</a>
-        </li>
-        <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
-          <a href="#">Learn</a>
-        </li>
-        <div class="flex pl-[200px]">
+        <ul class="flex justify-center ml-9">
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">Docs</a>
+          </li>
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">Updates</a>
+          </li>
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">Blog</a>
+          </li>
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">API</a>
+          </li>
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">Extensions</a>
+          </li>
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">FAQ</a>
+          </li>
+          <li class="py-3 text-base pr-6 text-[#dadada] hover:text-white">
+            <a href="#">Learn</a>
+          </li>
+        </ul>
+      </div>
+      <div class="pl-36">
+        <div class="flex">
           <div>
             <button
-              class="flex text-[14px] text-[#dadada] pl-2 pr-10 pt-2 pb-2 bg-[rgba(255,255,255,.08)] hover:bg-[#525257]"
+              class="flex text-[14px] text-[#dadada] h-[50px] w-[184px] justify-start items-center pl-3 bg-[rgba(255,255,255,.08)] hover:bg-[#525257]"
             >
-              <img class="py-2 w-[25px] pr-2" src="./assets/search.svg" />Search
+              <img class="py-3 w-[25px] pr-2" src="./assets/search.svg" />Search
               Docs
             </button>
           </div>
           <div>
             <button
-              class="flex bg-[#0066B8] hover:bg-[#004d8b] pl-2 pr-3 pt-2 pb-2 text-white text-[16px]"
+              class="flex items-center justify-center bg-[#0066B8] hover:bg-[#004d8b] h-[50px] w-[134px] text-white text-[16px]"
             >
               <img
                 src="./assets/download.svg"
@@ -67,7 +68,30 @@
             </button>
           </div>
         </div>
-      </ul>
+      </div>
     </nav>
+
+    <!-- ALERT BAR HERE -->
+    <section
+      class="bg-[#25252B] mt-[47px] text-[#CCCCCC] flex justify-center items-center h-[45px]"
+    >
+      <p>
+        <a
+          class="text-[#008AC8] hover:underline"
+          href="http://www.google.com"
+          target="_blank"
+          >Version 1.74</a
+        >
+        is now available! Read about the new features and fixes from November.
+      </p>
+    </section>
+
+    <!-- HERO SECTION HERE -->
+    <main>
+      <div class="flex bg-[#2C2C32]">
+        <div class="left-section w-1/2 h-[600px]">A</div>
+        <div class="right-section w-1/2">B</div>
+      </div>
+    </main>
   </body>
 </html>
