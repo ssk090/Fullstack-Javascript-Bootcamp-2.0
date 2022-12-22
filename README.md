@@ -5,7 +5,10 @@
 2. [Power of Image tag](https://shivananda.hashnode.dev/power-of-image-tag)
 3. [All About CSS Selectors](https://shivananda.hashnode.dev/all-about-css-selectors)
 4. [Flexbox Guide](https://shivananda.hashnode.dev/flexbox-guide)
-5. ...publishing soon
+5. [CSS Positions](https://shivananda.hashnode.dev/css-positions)
+6. [CSS Box Model](https://shivananda.hashnode.dev/the-css-box-model)
+7. [Media Queries](https://shivananda.hashnode.dev/media-queries)
+8. ... publishing soon
 
 <hr>
 
@@ -15,8 +18,11 @@
 - [x] Input Elements
 - [x] Audio and Video Tag
 - [x] Flex Box (CSS)
-- [ ] Positioning (CSS)
-- [ ] CSS Box Model (Padding, Margin, Border)
-- [ ] Media Query 
+- [x] Positioning (CSS)
+- [x] CSS Box Model (Padding, Margin, Border)
+- [x] Media Query 
 - [ ] CSS Grid
+- [ ] Tailwind CSS
+- [ ] Github
+- [ ] Javascript
 
