@@ -11,7 +11,7 @@
   <body>
     <!-- NAVBAR HERE -->
     <nav
-      class="bg-[#2C2C32] fixed top-0 flex justify-center w-full h-[50px] overflow-hidden"
+      class="drop-shadow-lg shadow-lg bg-[#2C2C32] fixed z-10 top-0 flex justify-center w-full h-[50px] overflow-hidden"
     >
       <div class="flex justify-center items-center">
         <img
@@ -50,7 +50,7 @@
         <div class="flex">
           <div>
             <button
-              class="flex text-[14px] text-[#dadada] h-[50px] w-[184px] justify-start items-center pl-3 bg-[rgba(255,255,255,.08)] hover:bg-[#525257]"
+              class="cursor-text flex text-[14px] text-[#dadada] h-[50px] w-[184px] justify-start items-center pl-3 bg-[rgba(255,255,255,.08)] hover:bg-[#525257]"
             >
               <img class="py-3 w-[25px] pr-2" src="./assets/search.svg" />Search
               Docs
@@ -89,9 +89,105 @@
     <!-- HERO SECTION HERE -->
     <main>
       <div class="flex bg-[#2C2C32]">
-        <div class="left-section w-1/2 h-[600px]">A</div>
-        <div class="right-section w-1/2">B</div>
+        <div class="flex flex-col items-center mt-16 w-1/2 h-[600px]">
+          <p class="text-white text-5xl font-light">Code editing.</p>
+          <p class="text-white text-5xl mt-2">Redefined.</p>
+          <p class="text-xl text-[#92A99D] font-normal mt-3 mb-3">
+            Free. Built on open source. Runs everywhere.
+          </p>
+          <div class="flex">
+            <button
+              class="flex flex-col justify-center items-center bg-[#0066B8] text-white w-[233px] h-[66px] hover:bg-[#005296]"
+            >
+              <p class="font-medium">Download for Windows</p>
+              <p class="text-sm font-light">Stable Build</p>
+            </button>
+            <button
+              class="flex justify-center items-center bg-[#0066B8] hover:bg-[#005296] h-[66px] ml-0.5 w-[45px]"
+            >
+              <img
+                class="h-5"
+                src="https://code.visualstudio.com/assets/icons/chevronDown.svg"
+                alt="chevronDown"
+              />
+            </button>
+          </div>
+          <div>
+            <div
+              class="w-0 h-0 border-solid border-b-[#25252B] border-b-[10px] border-x-transparent border-x-[10px] border-t-0 z-2 absolute top-[385px] left-[365px]"
+            ></div>
+            <p class="text-sm m-4 text-[#92A99D] bg-[#25252B] p-3 rounded-lg">
+              <a class="hover:underline text-[#008AC8]" href="">Web</a>,
+              <a class="hover:underline text-[#008AC8]" href=""
+                >Insiders edition</a
+              >
+              , or
+              <a class="hover:underline text-[#008AC8]" href=""
+                >other platforms</a
+              >
+            </p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <p class="text-[#92A99D] text-xs">
+              By using VS Code, you agree to its
+            </p>
+            <p class="cursor-pointer text-xs hover:underline text-[#008AC8]">
+              license and privacy statement.
+            </p>
+          </div>
+        </div>
+        <div class="m-9 drop-shadow-lg w-3/4">
+          <img src="./assets/vscode_hero.JPG" alt="" />
+        </div>
       </div>
     </main>
+
+    <!-- 4 options grid -->
+    <main class="flex justify-evenly items-center h-[128px] bg-white ml-9 mr-9">
+      <div
+        class="w-[25%] h-[127px] flex flex-col justify-center items-center hover:bg-[#E3E3E3] ml-5 mr-5"
+      >
+        <a href="#icon-intellisense">
+          <div
+            class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-[length:20.6rem_10.4rem] bg-no-repeat h-[5rem] w-[5rem] hover:bg-[0rem_-5.29rem] transition-none"
+          ></div>
+          <p class="text-[1.2rem] text-[#444] font-medium">Intelisense</p>
+        </a>
+      </div>
+      <div
+        class="w-[25%] h-[127px] flex flex-col justify-center items-center hover:bg-[#E3E3E3] ml-5 mr-5"
+      >
+        <a href="#icon-run-and-debug">
+          <div
+            class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-[-5.2rem_0] bg-[length:20.6rem_10.4rem] bg-no-repeat h-[5rem] w-[5rem] hover:bg-[-5.2rem_-5.29rem] transition-none"
+          ></div>
+          <p class="text-[1.2rem] text-[#444] font-medium">Run and Debug</p>
+        </a>
+      </div>
+
+      <div
+        class="w-[25%] h-[127px] flex flex-col justify-center items-center hover:bg-[#E3E3E3] ml-5 mr-5"
+      >
+        <a href="#icon-built-in-git">
+          <div
+            class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-[-10.4rem_0] bg-[length:20.6rem_10.4rem] bg-no-repeat h-[5rem] w-[5rem] hover:bg-[-10.4rem_-5.29rem] transition-none"
+          ></div>
+          <p class="text-[1.2rem] text-[#444] font-medium">Built-in-Git</p>
+        </a>
+      </div>
+
+      <div
+        class="w-[25%] h-[127px] flex flex-col justify-center items-center hover:bg-[#E3E3E3] ml-5 mr-5"
+      >
+        <a href="#icon-extensions">
+          <div
+            class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-[-15.6rem_0] bg-[length:20.6rem_10.4rem] bg-no-repeat h-[5rem] w-[5rem] hover:bg-[-15.6rem_-5.29rem] transition-none"
+          ></div>
+          <p class="text-[1.2rem] text-[#444] font-medium">Extensions</p>
+        </a>
+      </div>
+    </main>
+    <main class="h-[348px] bg-[#F5F5F5]"></main>
+    <main class="h-[348px]"></main>
   </body>
 </html>
