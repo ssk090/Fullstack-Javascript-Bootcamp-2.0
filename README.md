@@ -8,7 +8,8 @@
 5. [CSS Positions](https://shivananda.hashnode.dev/css-positions)
 6. [CSS Box Model](https://shivananda.hashnode.dev/the-css-box-model)
 7. [Media Queries](https://shivananda.hashnode.dev/media-queries)
-8. ... publishing soon
+8. [CSS Grid](https://shivananda.hashnode.dev/introduction-to-css-grid)
+9. ... publishing soon
 
 <hr>
 
@@ -21,7 +22,7 @@
 - [x] Positioning (CSS)
 - [x] CSS Box Model (Padding, Margin, Border)
 - [x] Media Query 
-- [ ] CSS Grid
+- [x] CSS Grid
 - [ ] Tailwind CSS
 - [ ] Github
 - [ ] Javascript
